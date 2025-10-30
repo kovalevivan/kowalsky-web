@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOWALSKY — Оборудование для яхт</title>
+    <meta name="description" content="Профессиональное оборудование для яхт и швертботов. Чехлы, карбоновые удлинители, аксессуары.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <img src="логотип.jpeg" alt="KOWALSKY">
+                </a>
+                <div class="nav-menu">
+                    <a href="#products">Товары</a>
+                    <a href="#about">О нас</a>
+                    <a href="#contact">Контакты</a>
+                    <a href="#contact" class="btn-nav">Заказать</a>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Профессиональное<br>оборудование для яхт</h1>
+                <p>Качественные чехлы, карбоновые удлинители и аксессуары<br>для швертботов класса Луч, Laser, ILCA, Ракета 270, Оптимист</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Смотреть каталог</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container-narrow">
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="about-number">01</div>
+                    <h3>Качество материалов</h3>
+                    <p>Используем плотный материал с ПВХ покрытием и карбон премиум-класса</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-number">02</div>
+                    <h3>Быстрое производство</h3>
+                    <p>Стандартный срок изготовления — от 2 недель</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-number">03</div>
+                    <h3>Индивидуальный подход</h3>
+                    <p>Разрабатываем проекты под конкретные модели яхт</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Каталог</h2>
+                <div class="product-filters">
+                    <button class="filter-btn active" data-filter="all">Все</button>
+                    <button class="filter-btn" data-filter="luch">Луч</button>
+                    <button class="filter-btn" data-filter="raketa">Ракета 270</button>
+                    <button class="filter-btn" data-filter="optimist">Оптимист</button>
+                    <button class="filter-btn" data-filter="accessories">Аксессуары</button>
+                    <button class="filter-btn" data-filter="marina">Причал</button>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Чехол для Луч -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="Чехол для яхты Луч 1.jpeg" alt="Чехол для яхты Луч" class="product-main-img">
+                        <div class="product-thumbnails">
+                            <img src="Чехол для яхты Луч 1.jpeg" alt="" class="thumb active">
+                            <img src="Чехол для яхты Луч 2.jpeg" alt="" class="thumb">
+                            <img src="Чехол для яхты Луч 3.jpeg" alt="" class="thumb">
+                            <img src="Чехол для яхты Луч 4.jpeg" alt="" class="thumb">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Чехол для яхты Луч / Laser / ILCA</h3>
+                        <p>Плотный материал с ПВХ покрытием изнутри. Две стропы по краям, веревка в корме стянет чехол по корпусу</p>
+                        <div class="product-footer">
+                            <span class="price">7 500 ₽</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карбоновый удлинитель -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="Карбоновый удлинитель румпеля 1.jpeg" alt="Карбоновый удлинитель" class="product-main-img">
+                        <div class="product-thumbnails">
+                            <img src="Карбоновый удлинитель румпеля 1.jpeg" alt="" class="thumb active">
+                            <img src="Карбоновый удлинитель румпеля 2.jpeg" alt="" class="thumb">
+                            <img src="Карбоновый удлинитель румпеля 3.jpeg" alt="" class="thumb">
+                            <img src="Карбоновый удлинитель румпеля 4.jpeg" alt="" class="thumb">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Удлинитель румпеля 100 см</h3>
+                        <p>Карбоновый, легкий и прочный. Подойдет для Луча, Laser, ILCA и других швертботов. Вертлюг OnePlus</p>
+                        <div class="product-footer">
+                            <span class="price">4 500 ₽</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Откреночный ремень -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="Откреночный ремень 1.jpeg" alt="Откреночный ремень" class="product-main-img">
+                        <div class="product-thumbnails">
+                            <img src="Откреночный ремень 1.jpeg" alt="" class="thumb active">
+                            <img src="Откреночный ремень 2.jpeg" alt="" class="thumb">
+                            <img src="Откреночный ремень 3.jpeg" alt="" class="thumb">
+                            <img src="Откреночный ремень 4.jpeg" alt="" class="thumb">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Откреночный ремень для Луч</h3>
+                        <p>Для швертбота Луч, Laser, ILCA. Длина 80 см, ширина 7 см. Прочный и надежный для интенсивных тренировок</p>
+                        <div class="product-footer">
+                            <span class="price">2 500 ₽</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Телега для берега -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Телега для берега" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Телега для берега</h3>
+                        <p>Удобная транспортировка яхты от хранилища до воды. Прочная конструкция для Луч, Laser, ILCA</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Конструкция на 8 лодок -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Конструкция на 8 лодок" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Конструкция на 8 лодок для прицепа</h3>
+                        <p>Металлическая конструкция для транспортировки 8 яхт класса Луч одновременно на прицепе</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Парус тренировочный -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Парус тренировочный" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Парус тренировочный</h3>
+                        <p>Тренировочный парус для яхт класса Луч, Laser, ILCA. Надежный материал для ежедневных тренировок</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Шкот 13м -->
+                <div class="product" data-category="luch">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Шкот 13м" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Шкот 13м</h3>
+                        <p>Высококачественный шкот длиной 13 метров для швертботов класса Луч, Laser, ILCA</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Чехол Ракета 270 -->
+                <div class="product" data-category="raketa">
+                    <div class="product-gallery">
+                        <img src="ракета 270.jpeg" alt="Чехол Ракета 270" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Чехол для Ракета 270</h3>
+                        <p>Специальная выкройка. Длина: 270, ширина: 125, высота: 12,5 см. Плотный материал с ПВХ покрытием</p>
+                        <div class="product-footer">
+                            <span class="price">5 900 ₽</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Откреночный ремень для Ракета 270 -->
+                <div class="product" data-category="raketa">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Откреночный ремень Ракета 270" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Откреночный ремень для Ракета 270</h3>
+                        <p>Специальный откреночный ремень для швертбота Ракета 270. Прочный и надежный</p>
+                        <div class="product-footer">
+                            <span class="price">2 500 ₽</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Чехол Оптимист -->
+                <div class="product" data-category="optimist">
+                    <div class="product-gallery">
+                        <img src="оптимист.jpeg" alt="Чехол Оптимист" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge">Предзаказ</span>
+                        <h3>Чехол для Оптимист</h3>
+                        <p>Для детского класса яхт. Длина: 231, ширина: 113, высота: 20 см</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Предзаказ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Флюгарка -->
+                <div class="product" data-category="accessories">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Флюгарка" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Флюгарка</h3>
+                        <p>Индикатор направления ветра для яхтсменов. Легкая и чувствительная конструкция</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Кепка -->
+                <div class="product" data-category="accessories">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Кепка KOWALSKY" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Кепка KOWALSKY</h3>
+                        <p>Фирменная кепка для яхтсменов. Защита от солнца и стильный аксессуар</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Очки -->
+                <div class="product" data-category="accessories">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Очки для яхтинга" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Очки для яхтинга</h3>
+                        <p>Спортивные солнцезащитные очки для яхтсменов с защитой от бликов на воде</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Перчатки -->
+                <div class="product" data-category="accessories">
+                    <div class="product-gallery">
+                        <img src="placeholder.svg" alt="Перчатки для яхтинга" class="product-main-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Перчатки для яхтинга</h3>
+                        <p>Специальные перчатки для работы со шкотами. Защита от мозолей и надежный хват</p>
+                        <div class="product-footer">
+                            <span class="price">Уточняйте</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Сервисная колонка -->
+                <div class="product product-featured" data-category="marina">
+                    <div class="product-gallery">
+                        <img src="сервисная колонка 1.jpeg" alt="Сервисная колонка" class="product-main-img">
+                        <div class="product-thumbnails">
+                            <img src="сервисная колонка 1.jpeg" alt="" class="thumb active">
+                            <img src="сервисная колонка 2.jpeg" alt="" class="thumb">
+                            <img src="сервисная колонка 3.jpeg" alt="" class="thumb">
+                            <img src="сервисная колонка 4.jpeg" alt="" class="thumb">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="badge badge-premium">Premium</span>
+                        <h3>Сервисная колонка для причала</h3>
+                        <p>Универсальные розетки. Краны для воды с обеих сторон. Вечерняя подсветка. Оцинкованная сталь. 400×400×900 мм. Зимний чехол в комплекте</p>
+                        <div class="product-footer">
+                            <span class="price">75 000 ₽</span>
+                            <a href="#contact" class="btn btn-small">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container-narrow">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Как заказать</h2>
+                    <div class="contact-methods">
+                        <a href="https://t.me/nikita_kovalev_shoes" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.83 17.02C14.25 17.07 13.81 16.64 13.25 16.27C12.37 15.69 11.87 15.33 11.02 14.77C10.03 14.12 10.67 13.76 11.24 13.18C11.39 13.03 13.95 10.7 14 10.49C14.0069 10.4582 14.006 10.4252 13.9973 10.3938C13.9886 10.3624 13.9724 10.3337 13.95 10.31C13.89 10.26 13.81 10.28 13.74 10.29C13.65 10.31 12.25 11.24 9.52 13.08C9.12 13.35 8.76 13.49 8.44 13.48C8.08 13.47 7.4 13.28 6.89 13.11C6.26 12.91 5.77 12.8 5.81 12.45C5.83 12.27 6.08 12.09 6.55 11.9C9.47 10.63 11.41 9.79 12.38 9.39C15.16 8.23 15.73 8.03 16.11 8.03C16.19 8.03 16.38 8.05 16.5 8.15C16.6 8.23 16.63 8.34 16.64 8.42C16.63 8.48 16.65 8.66 16.64 8.8Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">Telegram</span>
+                                <span class="method-value">@nikita_kovalev_shoes</span>
+                            </div>
+                        </a>
+                        <a href="https://ozon.ru/t/jhxxqGG" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16 13H13V16H11V13H8V11H11V8H13V11H16V13Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">Ozon</span>
+                                <span class="method-value">Наш магазин</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-note">
+                        <p><strong>Условия:</strong></p>
+                        <ul>
+                            <li>Срок производства от 2 недель</li>
+                            <li>Доставка по всей России</li>
+                            <li>Гарантия качества</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Оставьте заявку</h3>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Интересующий товар или вопрос" rows="4"></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <img src="логотип.jpeg" alt="KOWALSKY" class="footer-logo">
+                    <p>Профессиональное оборудование для яхт</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <a href="#products">Товары</a>
+                    <a href="#about">О нас</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <a href="https://t.me/nikita_kovalev_shoes">Telegram</a>
+                    <a href="https://ozon.ru/t/jhxxqGG" target="_blank">Ozon</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KOWALSKY. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

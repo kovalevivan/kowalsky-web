@@ -1,0 +1,9 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FAFAFA"/>
+  <path d="M350 250L450 250L450 350L350 350L350 250Z" stroke="#E5E5E5" stroke-width="2" fill="none"/>
+  <circle cx="380" cy="285" r="8" fill="#E5E5E5"/>
+  <path d="M350 330L380 300L410 320L450 280" stroke="#E5E5E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="400" font-family="Inter, sans-serif" font-size="18" fill="#6B6B6B" text-anchor="middle">KOWALSKY</text>
+  <text x="400" y="425" font-family="Inter, sans-serif" font-size="14" fill="#A0A0A0" text-anchor="middle">Фото скоро появится</text>
+</svg>
+

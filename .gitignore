@@ -1,0 +1,52 @@
+# Системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Временные файлы
+*.swp
+*.swo
+*~
+.tmp
+.temp
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы анализа (не нужны для сайта)
+analysis.py
+analysis_report.png
+*.csv
+
+# Backup файлы
+*.bak
+*.backup
+*_backup
+
+# Node modules (если будете использовать)
+node_modules/
+package-lock.json
+
+# Дистрибутивы
+dist/
+build/
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+
+# Кэш
+.cache/
+*.cache
+
